@@ -1,0 +1,1 @@
+puts "Coffee".tr(?f,?d).chars.uniq*""
