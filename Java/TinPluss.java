@@ -1,4 +1,6 @@
-// Usage java Java/Tinpluss.java
+// Usage : java Java/Tinpluss.java
+
+package Java;
 
 import java.util.*;
 
