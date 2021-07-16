@@ -1,3 +1,5 @@
+// Usage java Java/Tinpluss.java
+
 import java.util.*;
 
 public class TinPluss
