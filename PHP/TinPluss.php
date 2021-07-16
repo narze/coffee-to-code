@@ -1,4 +1,4 @@
-<!-- Usage : Run on XAMPP  -->
+<!-- Usage : Run PHP on XAMPP ( More info at https://www.apachefriends.org/ )  -->
 
 <?php
 $Codee = str_replace("ff", "d", "Coffee");
