@@ -3,7 +3,7 @@
 function GetCodeOrKofi()
 {
     let Coffee = "Coffee";
-    let Code = ""
+    let Code = "";
     for (let i = 0; i < Coffee.length; i++) {
         if (Code.length == 0) {Code+=Coffee[i];}else{
             let chrToAdd = "";
