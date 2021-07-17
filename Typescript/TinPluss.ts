@@ -1,3 +1,3 @@
 // Usage : Use ts-node ( Example: `$ npx ts-node Typescript/Tinpluss.ts` )
 
-console.log("Coffee".replace("ff", "d").replace("ee", "e"));
+console.log([...new Set("Coffee")].join("").replaceAll(/[f]/g, "d"));
