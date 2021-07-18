@@ -1,4 +1,4 @@
-// Useage `node JavaScript/kidjanate.js` or run from web browser.
+// Usage `node JavaScript/kidjanate.js` or run from web browser.
 
 function GetCodeOrKofi()
 {
