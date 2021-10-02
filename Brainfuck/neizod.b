@@ -29,3 +29,14 @@ PART 2 CONVERT COFFEE TO CODE
 > [-<<+>>]              move 2nd e to the back of previous d
 <<[<]                   reset head
 >[.>]<[<]               print the final word after conversion
+
+
+PART 3 WATCH IT RUN BEAUTIFULLY
+===============================
+to test the code/ you may go to this webpage
+
+[   //fatiherikli.github.io/brainfuck-visualizer/   ]
+
+then copy and paste this file into the textarea
+tick optimize and set delay to the left for fastest emulator speed
+finally just hit run and watch the turing machine operate in action
