@@ -13,6 +13,7 @@
 ## Rules
 
 - Create a code which do one thing only, converts string `"Coffee"` to `"Code"` and outputs it to console, web, or anything.
-- File structure is `LanguageName/your_github_username.ext` eg. `Ruby/narze.rb`, create new language folder if not exists.
+- File structure is `LanguageName/your_github_username.ext` e.g. `Ruby/narze.rb`, create new language folder if not exists.
+  - If you want more than one files, you can create the subfolder e.g. `Ruby/narze` then put code files in it.
 - Submit Pull Request with evidence that the code is working (Online code runner URL, screenshot, executable, etc.)
 - (Extra) Be Creative!
