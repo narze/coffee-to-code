@@ -1,11 +1,10 @@
 package safesuk
 
 import (
-	"strings"
+	"regexp"
 )
 
 func CoffeeToCode(s string) string {
-	o := strings.ReplaceAll(s, "Coffee", "Code")
-	o = strings.ReplaceAll(o, "coffee", "code")
-	return o
+	r := regexp.MustCompile(`([Cc])[Oo][Ff][Ff][Ee][Ee]`)
+	return r.ReplaceAllString(s, "${1}ode")
 }
