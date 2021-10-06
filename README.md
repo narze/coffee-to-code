@@ -17,3 +17,4 @@
   - If you want more than one files, you can create the subfolder e.g. `Ruby/narze` then put code files in it.
 - Submit Pull Request with evidence that the code is working (Online code runner URL, screenshot, executable, etc.)
 - (Extra) Be Creative!
+- (Optional) Star this repo if you like this idea!
