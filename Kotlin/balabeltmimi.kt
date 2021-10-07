@@ -1,2 +1,2 @@
 val oldText = "Coffee"
-println(oldText.replace("Cofee", "Code"))
+println(oldText.replace("Coffee", "Code"))
