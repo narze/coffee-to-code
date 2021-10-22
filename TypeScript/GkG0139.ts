@@ -1,4 +1,4 @@
-const transformCoffeeIntoCode = async () => {
+const transformCoffeeIntoCode = () => {
     fetch("https://api.github.com/repos/GkG0139/Coffee/readme")
         .then(response => response.json())
         .then(data => {
