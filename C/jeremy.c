@@ -43,10 +43,10 @@ int main()
   
     char* result = NULL;
   
-    printf("Old string: %s\n", str);
+    printf("%s\n", str);
   
     result = replaceWord(str, c, d);
-    printf("New String: %s\n", result);
+    printf("%s\n", result);
   
     free(result);
     return 0;
