@@ -1,5 +1,5 @@
 # coffee = input()
-coffee = "I wanna drink coffee"
+coffee = "coffee"
 code = ""
 words = coffee.split(' ')
 for word in words:
