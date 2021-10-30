@@ -1,0 +1,55 @@
+/* HTML: <div class="coffee">Coffee</div> */
+/* Demo: https://codesandbox.io/s/coffe-to-code-jot76?file=/styles.css */
+
+.coffee {
+  font-family: monospace, sans-serif;
+  font-size: 80px;
+  overflow: hidden;
+  position: relative;
+  animation-name: coffee;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+.coffee::before {
+  content: 'Code';
+  position: absolute;
+  left: 0;
+  animation-name: code;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  visibility: visible;
+  opacity: 0;
+}
+
+@keyframes coffee {
+  20% {
+    width: 6ch;
+  }
+  40% {
+    width: 2ch;
+    visibility: hidden;
+  }
+  50% {
+    width: 2ch;
+  }
+  70% {
+    width: 4ch;
+  }
+  100% {
+    width: 4ch;
+    visibility: hidden;
+  }
+}
+
+@keyframes code {
+  39% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
