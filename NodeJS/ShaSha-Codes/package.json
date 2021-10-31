@@ -4,7 +4,8 @@
   "description": "This webpage converts coffee to code",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app"
+    "start":"node app",
+    "dev": "nodemon app"
   },
   "author": "ShaSha-Codes",
   "license": "ISC",
