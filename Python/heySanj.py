@@ -179,7 +179,7 @@ if drink.isalpha():
     if drink == "coffee":
         print("\n😌 Excellent choice! Enjoy your ~")
     else:
-        print("\n🤨 Not my first choice, by heres your ~")
+        print("\n🤨 Not my first choice, but heres your ~")
 else:
     print("\n😠 That's no drink! Have some ~")
     drink = "coffee"
