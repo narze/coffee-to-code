@@ -1,6 +1,6 @@
 ;; Used WASI
 ;; Execute: wasmtime coffe2code.wat
-;; Only change lowercase "Coffee" to "Code"
+;; Only change "Coffee" to "Code"
 (module
     ;; Import the required fd_write WASI function which will write the given io vectors to stdout
     ;; The function signature for fd_write is:
