@@ -173,6 +173,17 @@ import string
 drink = input("What are you having to drink?: ")
 codified = []
 
+# Make sure input is only letter characters
+if drink.isalpha():
+    drink = drink.lower().strip()
+    if drink == "coffee":
+        print("\n😌 Excellent choice! Enjoy your ~")
+    else:
+        print("\n🤨 Not my first choice, by heres your ~")
+else:
+    print("\n😠 That's no drink! Have some ~")
+    drink = "coffee"
+    
 # Convert characters into codified ASCII art
 for char in drink:
     index = string.ascii_lowercase.index(char.lower())
