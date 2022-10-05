@@ -1,0 +1,22 @@
+print("When normal people drink Coffee:")
+print("""\
+    ______________
+   |  ___    ___  |
+   | |   |  |   | |
+   | | . |  | . | |
+   |  ===    ===  |
+   |      /\\      |
+   |     _____    |
+   |    |     |   |
+   |     -----    |
+    --------------
+""")
+print("When Programmers drink Coffee:")
+dictionary = {"Coffee": "Code",
+              "Tea": "Boring"}
+print("""
+dictionary = {"Coffee": "Code",
+              "Tea": "Boring"}
+print(dictionary["Coffee"])
+BECOMES""", end=" ")
+print(dictionary["Coffee"])
