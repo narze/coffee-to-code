@@ -7,14 +7,14 @@
 </p>
 
 <p align="center">
-  Developers converting coffee to code in many ways possible.
+  Developers converting coffee to code in as many ways possible.
 </p>
 
 ## Rules
 
-- Create a code which do one thing only, converts string `"Coffee"` to `"Code"` and outputs it to console, web, or anything.
-- File structure is `LanguageName/your_github_username.ext` e.g. `Ruby/narze.rb`, create new language folder if not exists.
-  - If you want more than one files, you can create the subfolder e.g. `Ruby/narze` then put code files in it.
-- Submit Pull Request with evidence that the code is working (Online code runner URL, screenshot, executable, etc.)
+- Create code which does one thing only: convert string `"Coffee"` to `"Code"` and outputs it to the console, web, or anything.
+- File structure is `LanguageName/your_github_username.ext` e.g. `Ruby/narze.rb`, create a new language folder if it does not exist.
+  - If you want more than one file you can create a subfolder e.g. `Ruby/narze` then put code files in it.
+- Submit Pull Requests with evidence that the code is working (Online code runner URL, screenshot, executable, etc.)
 - (Extra) Be Creative!
 - (Optional) Star this repo if you like this idea!
