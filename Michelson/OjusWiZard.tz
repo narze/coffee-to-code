@@ -1,0 +1,31 @@
+parameter (string %to_code);
+storage   string;
+code
+  {
+    CAR;
+    DUP;
+    PUSH nat 1;
+    PUSH nat 5;
+    SLICE;
+    IF_NONE
+      {
+        PUSH int 9;
+        FAILWITH;
+      }
+      {};
+    PUSH string "d";
+    DIG 2;
+    PUSH nat 2;
+    PUSH nat 0;
+    SLICE;
+    IF_NONE
+      {
+        PUSH int 9;
+        FAILWITH;
+      }
+      {};
+    CONCAT;
+    CONCAT;
+    NIL operation;
+    PAIR;
+  };

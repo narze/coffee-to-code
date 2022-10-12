@@ -1,0 +1,19 @@
+{
+  "name": "coffee-to-code",
+  "version": "1.0.0",
+  "description": "This webpage converts coffee to code",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app",
+    "dev": "nodemon app"
+  },
+  "author": "ShaSha-Codes",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}

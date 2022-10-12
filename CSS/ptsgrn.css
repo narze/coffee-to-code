@@ -1,0 +1,39 @@
+/*
+* use this with html:
+*    <div>coffee</div>
+* see it in action (don't forget to hover it):
+*   https://codepen.io/patsagorn/pen/ExvWamV
+*/
+
+body {
+  display: grid;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+div {
+  transform: translate(2ch, 0);
+  font-size: 4rem;
+  font-family: monospace;
+  position: relative;
+  padding: .1em;
+}
+div:before {
+  content: 'This is the power of ';
+}
+div:after {
+  content: 'de';
+  display: inline-block;
+  background-color: #fff;
+  box-sizing: border-box;
+  width: 4ch;
+  transform: translate(-4ch, 0);
+  transition: .7s;
+}
+div:hover:after {
+  color: #efefef;
+  transform: translate(0ch, 0);
+}
