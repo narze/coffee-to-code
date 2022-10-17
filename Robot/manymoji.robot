@@ -7,7 +7,7 @@ ${intial_text}  coffee
 *** Keywords ***
 Convert coffee to code
     Log to console   Show the first label: ${intial_text} 
-    ${str} =	Replace String Using Regexp	   ${intial_text}  (ffe)  de
+    ${str} =	Replace String Using Regexp	   ${intial_text}  (ffe)  d
     Log to console   Print final result: ${str}
     
 *** Test Cases ***
