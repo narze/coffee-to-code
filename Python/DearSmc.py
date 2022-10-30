@@ -1,18 +1,17 @@
-import random
-def initCode(word):
-  makePowerList = ["coffee", "beer", "shabu"]
-  arr = []
-  if word in makePowerList:
-    arr = list(set(word))
-    str = "".join(set(word)).replace("f","d")
-    arr = list(str)
-    while str != "code":
-      random.shuffle(arr)
-      str = "".join(arr);
-    print(str)
+text = "Coffee"
+leastAlphabet = ""
+result = ""
 
+for i in range(len(text)):
+  if leastAlphabet == text[i]:
+      if text[i] == "f":
+          result = result[:-1]
+          result += "d"
+      if text[i] == "e":
+          continue
   else:
-    print("I'm so tired that not enough")
+      result += text[i]
+  leastAlphabet = text[i]
 
-startWord = "coffee"
-initCode(startWord)
+
+print(result)
