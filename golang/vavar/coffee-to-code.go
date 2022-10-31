@@ -2,7 +2,7 @@ package coffeetocode
 
 import "strings"
 
-func coffee2code(input string) string {
+func Coffee2code(input string) string {
 	if strings.ToLower(input) != "coffee" {
 		panic("invalid")
 	}
