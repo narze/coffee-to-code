@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+    string coffee = "Coffee";
+
+    // Remove duplicates from the string
+    string unique_chars(coffee);
+    unique_chars.erase(unique(unique_chars.begin(), unique_chars.end()), unique_chars.end());
+
+    // Replace "f" with "d"
+    size_t found = unique_chars.find("f");
+    while (found != string::npos) {
+        unique_chars.replace(found, 1, "d");
+        found = unique_chars.find("f", found + 1);
+    }
+
+    cout << unique_chars << endl;
+
+    return 0;
+}
