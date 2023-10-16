@@ -11,7 +11,7 @@ function App() {
   const [text, setText] = useState('Coffee');
 
   function handleClick(){
-    if (buttonText==='Coffee'){
+    if (text === 'Coffee'){
       setText('Code');
     } else{
       setText('Coffee')
