@@ -6,7 +6,7 @@ int main()
 {
     bool replace = false;
     string coffee = "coffee";
-
+    cout << coffee << endl;
     for (int index = 0; index < coffee.size() - 1; index++)
     {
         if (!replace && coffee[index] == 'f')
@@ -15,7 +15,7 @@ int main()
 
             replace = true;
         }
-        else if (replace && coffee[index] == 'f' || coffee[index] == 'e')
+        else if (coffee[index] == 'f' || coffee[index] == 'e')
         {
             coffee.erase(index, 1);
             index--;
